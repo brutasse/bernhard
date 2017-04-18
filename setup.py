@@ -29,8 +29,7 @@ setup(
         'Operating System :: POSIX',
         'Operating System :: Unix',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3 :: Only',
         'Topic :: Internet :: Log Analysis',
         'Topic :: Utilities',
         'Topic :: System :: Networking :: Monitoring'
@@ -38,5 +37,5 @@ setup(
     zip_safe = False,
     packages = ['bernhard'],
     include_package_data = True,
-    install_requires=['protobuf >= 2.4']
+    install_requires=['python3-protobuf >= 2.4']
 )
