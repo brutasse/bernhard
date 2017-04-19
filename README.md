@@ -1,6 +1,6 @@
 # Bernhard
 
-A simple Python client for [Riemann](http://github.com/aphyr/riemann). Usage:
+A simple Python3 client for [Riemann](http://github.com/aphyr/riemann). Usage:
 
 ```python
 import bernhard
@@ -33,9 +33,5 @@ for e in q:
 ## Installing
 
 ```bash
-pip install bernhard
+pip install bernhard-py3
 ```
-
-You may encounter issues with the `protobuf` dependency; if so, just run `pip
-install protobuf` manually, then `pip install bernhard`.
-

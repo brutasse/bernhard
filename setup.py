@@ -11,14 +11,13 @@ with io.open(os.path.join(os.path.dirname(__file__), 'README.md'),
     long_description = f.read()
 
 setup(
-    name = 'bernhard',
-    version = '0.2.4',
-    description = 'Python client for Riemann',
+    name = 'bernhard-py3',
+    version = '1.0',
+    description = 'Python3 client for Riemann',
     long_description = long_description,
     author = 'Benjamin Anderspn',
-    author_email = 'b@banjiewen.net',
     license = 'ASF2.0',
-    url = 'http://github.com/banjiewen/bernhard.git',
+    url = 'http://github.com/brutasse/bernhard.git',
 
     classifiers = [
         'Development Status :: 4 - Beta',

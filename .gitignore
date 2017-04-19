@@ -1,4 +1,4 @@
 *.pyc
-bernhard.egg-info/
+bernhard_py3.egg-info/
 dist/
 build/
